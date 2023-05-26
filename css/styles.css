@@ -1,0 +1,276 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.logo{
+  width: 40%;
+}
+/* Headings */
+
+.big-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+p {font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #414141;
+  color: #fff;
+}
+
+.white-section {
+  background: linear-gradient(90deg,#000000,#04619F);
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.about { 
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background: linear-gradient(90deg,#04619F,#000000);
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+  position: absolute;
+  
+}
+
+/* about-us */
+
+.about{ font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 3rem;
+padding-top: 5%; }
+
+#about {
+  position: relative;
+  padding-bottom:5% ;
+}
+
+.aboutpara{
+       padding: 3% 7%;
+       font-size:1.3em;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.equipments{
+      padding-top: 5%;
+      font-size:1.1em;
+}
+
+.fitness-img{
+   width: 100%;
+              border-radius: 25px;}
+
+.yoga-img{
+           width: 100%;
+          border-radius: 25px;
+           }
+
+.feature-box {
+  padding: 2% 5%;
+}
+
+.icon {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #04619F;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background: linear-gradient(90deg,#04619F,#000000);
+  padding: 5% 3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 3% 10%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #fff;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 2% 10%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  background: linear-gradient(90deg,#04619F,#000000);
+}
+
+.cta-heading{
+  padding: 5% 10%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.cta-download{
+  margin: 0 3% 5% 0;
+}
+/* Footer Section */
+
+#footer{
+  background:#fff;
+  padding: 3%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover{
+      color:#04619F;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+    
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    
+  }
+
+  #title .container-fluid{
+    padding: 0;
+  }
+
+  .title-image{
+    width: 60%;
+  }
+
+  .navbar-brand{
+    text-align: left;
+    padding-left : 20px;
+    width: 50%;
+  }
+
+  .aboutpara{
+    font-size: 1em;
+  }
+
+  .feature-titlepara{
+    font-size: 1em;
+  }
+
+  .navbar-toggler{
+  margin-right: 20px;
+  }
+  
+  .logo{
+   width:80%;
+  }
+}
